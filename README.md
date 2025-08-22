@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # stock-price-prediction
 A Python project analyzing and forecasting Microsoft stock closing prices using time series data
 =======
@@ -16,7 +16,7 @@ Stock price prediction is a classic time series forecasting problem. In this pro
 - Train and evaluate the model with error metrics (MAE, RMSE)
 - Visualize actual vs. predicted prices
 
-This project focuses on Apple Inc. (AAPL) stock as a case study, but the code is adaptable for any ticker.
+This project focuses on Microsoft Corp. (MSFT) stock as a case study, but the code is adaptable for any ticker.
 
 🛠️ Technologies Used
 
@@ -27,11 +27,12 @@ This project focuses on Apple Inc. (AAPL) stock as a case study, but the code is
 - scikit-learn
 
  📁 Project Structure
+ ```
 stock-prediction/
-├── data/                  
-├── notebooks/            
-└── README.md  
-
+├── data/
+├── notebooks/
+└── README.md 
+```
 📊 Example Result
 
 -Mean Absolute Error (MAE): ~ 20.50
@@ -39,4 +40,4 @@ stock-prediction/
 -Root Mean Squared Error (RMSE): ~31.29
 
 ![MSFT Prediction](notebooks/results.png)
->>>>>>> f7cb15c (Update README.md)
+
